@@ -1,66 +1,57 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Test Project Outline – Module B — Dynamic website with server-side rendering
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This document outlines the description of Module B. It is circulated to the competitors and
+experts 3 months prior to the competition.
+This outline only describes the basic information of module B. The actual test project module will
+be created by external Test Project Developers using this outline as a guide.
+The module description will be presented on C-2 to all experts. The marking scheme will not be
+presented or supplied to competitors or experts during the competition.
 
-## About Laravel
+## Introduction
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Module B will focus on the creation of a dynamic website using a server-side framework.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Description of project and tasks
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+In this module, competitors will create a dynamically and server-side rendered website
+which the users of the product will use to manage their accounts and additional information.
 
-## Learning Laravel
+Parts of the website are protected and only accessible after a successful login.
+As this website will be publicly exposed, it must implement the OWASP guidelines.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The client will provide a detailed description of all the required functionalities of this website.
+From that, competitors must come up with a database design and implement the website based on it.
+Some example data will be provided in the form of CSV files which competitors must use.
+However, this CSV data might not be normalized and it is up to the competitors to import it
+into their database schema.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Module B has to be implemented using a server-side framework.
+It is possible to use additional libraries in the frontend for interactivity, but rendering must be
+performed by the server-side framework, and _not_ by a client-side framework calling an API.
+Framework and library availability will be limited and will be decided by all experts using
+the EuroSkills forums.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Assessment
 
-## Laravel Sponsors
+Module B will be assessed using the latest stable version of Google Chrome.
+Different security aspects will be tested.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Competition time
 
-### Premium Partners
+Competitors will have **4 hours** to complete module B.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## Mark distribution
 
-## Contributing
+The table below outlines how marks are broken down and how they align with the WorldSkills
+Occupation Standards (WSOS). Please read the Technical Description for a full explanation of the
+WorldSkills Occupation Standards.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+| WSOS SECTION | Description                            | Points |
+|--------------|----------------------------------------|--------|
+| 1            | Work organization and self-management  | 0      |
+| 2            | Communication and interpersonal skills | 0      |
+| 3            | Design Implementation                  | 5      |
+| 4            | Front-End Development                  | 0      |
+| 5            | Back-End Development                   | 18     |
+|              |                                        |        |
+| **Total**    |                                        | 23     |
